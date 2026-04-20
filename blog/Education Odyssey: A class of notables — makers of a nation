@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Education Odyssey: A class of notables — makers of a nation - Chris Mugendi</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "DM Sans", sans-serif; background: #f8f7f4; color: #1a1a1a; min-height: 100vh; }
+nav { background: #fff; border-bottom: 1px solid #e8e4dc; padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; }
+.nav-logo { font-family: Syne, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1a1a1a; text-decoration: none; }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a { text-decoration: none; color: #555; font-size: 0.9rem; }
+.nav-links a:hover { color: #1a1a1a; }
+.back-link { font-size: 0.85rem; color: #888; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 2rem; }
+.back-link:hover { color: #1a1a1a; }
+.post-container { max-width: 680px; margin: 0 auto; padding: 3rem 5%; }
+.post-meta { margin-bottom: 2.5rem; }
+.post-date { font-size: 0.8rem; color: #888; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+h1 { font-family: Syne, sans-serif; font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 700; line-height: 1.25; color: #1a1a1a; margin-bottom: 0.5rem; }
+.post-author { font-size: 0.85rem; color: #888; }
+.post-divider { height: 1px; background: #e8e4dc; margin: 2rem 0; }
+.post-content { font-size: 1rem; line-height: 1.85; color: #333; }
+.post-content p { margin-bottom: 1.5rem; }
+.post-content ol, .post-content ul { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+.post-content li { margin-bottom: 0.5rem; }
+.post-content blockquote { border-left: 3px solid #1a1a1a; padding-left: 1.25rem; margin: 2rem 0; font-style: italic; color: #555; }
+.post-content strong { font-weight: 600; color: #1a1a1a; }
+.post-content em { font-style: italic; }
+.post-nav { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e8e4dc; }
+.post-nav a { text-decoration: none; color: #1a1a1a; font-size: 0.9rem; }
+footer { background: #1a1a1a; color: #888; text-align: center; padding: 2rem; font-size: 0.8rem; margin-top: 4rem; }
+footer a { color: #aaa; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/index.html" class="nav-logo">Chris Mugendi</a>
+  <ul class="nav-links">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/blog/index.html">Blog</a></li>
+    <li><a href="https://getfundri.com" target="_blank">Fundri</a></li>
+  </ul>
+</nav>
+<div class="post-container">
+  <a href="/blog/index.html" class="back-link">&larr; All posts</a>
+  <div class="post-meta">
+    <div class="post-date">September 14, 2018</div>
+    <h1>Education Odyssey: A class of notables — makers of a nation</h1>
+    <div class="post-author">Chris Mugendi</div>
+  </div>
+  <div class="post-divider"></div>
+  <div class="post-content">
+    <p>The Kenyan students airlifts to study in America in the late 1950s and early 1960s could as well been one of the most defining moments of Kenya at the cusp of new independent Kenya. The impact of the airlifts, which boast an incredible alumni pool, has had reverberations for Kenya for decades even after the programme ended. The foresight, dedication of the organizers catapulted Kenya to become one of the few African countries that was ready for post-independence Kenya.</p>
+
+<p>The term 'class of notables' is thought to have famously been uttered by Carey Francis, in reference to Alliance High School class of 1945. They blazed the trail to what became one of the most consequential achieving alumni class of that time.</p>
+
+<p>Most of them came back and took important positions in the newly formed government. The policies, and strategies put forward by majority of these men and women propelled Kenya to become a leader in the region and Africa as a whole.</p>
+
+<p>At the centre of the Airlift was Tom Mboya, Dr Julius Gikonyo Kiano and several others. The period boasts men and women who went on to do great things:</p>
+
+<p><strong>Tom Mboya:</strong> Firebrand and main advocate for the programme. Even met John F Kennedy, when he was senator who later became president. JFK gave a $100,000 grant. Mboya also looped in other key personalities to support the programme: Sidney Poitier, Jackie Robinson.</p>
+
+<p><strong>Julius Gikonyo Kiano:</strong> First Kenyan to obtain a doctorate degree, 1956.</p>
+
+<p><strong>Prof Wangari Maathai:</strong> Left in the 1961 airlift. First African woman to win Nobel Prize. Also a lecturer at University of Nairobi and later assistant minister in Kibaki's government in 2002.</p>
+
+<p><strong>Barack Obama Senior:</strong> Made his own way to US not through the airlift but is considered to be part of period of high number of Kenyans seeking education abroad at the period.</p>
+
+<p>By 1965, there was a considerable number of people who had a university degree and were absorbed into government ministries and local universities as they came up later in the next decade. In Kenya, between 1959-63 more than 500 students were part of the airlifts. In DRC, at the time of independence, only 16 people had a university education.</p>
+
+<p>The organizers, benefactors of the Kenyan Airlift programme did what they deemed fit for themselves and their people. In the end their impact reverberated beyond themselves. We might not know it yet, but our actions now will be judged years to come as to whether we contributed to betterment of ourselves and our people or not. It's good to have a longer term vision once in a while even if we might not achieve it, but we dared to dream: and that might just be enough.</p>
+
+<blockquote><em>'Each generation must, out of relative obscurity, discover its mission, fulfill it or betray it.'</em> — Frantz Fanon</blockquote>
+  </div>
+  <div class="post-nav">
+    <a href="/blog/index.html">&larr; Back to all posts</a>
+  </div>
+</div>
+<footer>
+  <p>Originally published on <a href="https://christhecurator.com" target="_blank">christhecurator.com</a> &mdash; <a href="/index.html">chrismugendi.com</a></p>
+</footer>
+</body>
+</html>
