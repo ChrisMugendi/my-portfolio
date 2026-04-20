@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What they don't tell you about starting a startup - Chris Mugendi</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "DM Sans", sans-serif; background: #f8f7f4; color: #1a1a1a; min-height: 100vh; }
+nav { background: #fff; border-bottom: 1px solid #e8e4dc; padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; }
+.nav-logo { font-family: Syne, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1a1a1a; text-decoration: none; }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a { text-decoration: none; color: #555; font-size: 0.9rem; }
+.nav-links a:hover { color: #1a1a1a; }
+.back-link { font-size: 0.85rem; color: #888; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; margin-bottom: 2rem; }
+.back-link:hover { color: #1a1a1a; }
+.post-container { max-width: 680px; margin: 0 auto; padding: 3rem 5%; }
+.post-meta { margin-bottom: 2.5rem; }
+.post-date { font-size: 0.8rem; color: #888; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+h1 { font-family: Syne, sans-serif; font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 700; line-height: 1.25; color: #1a1a1a; margin-bottom: 0.5rem; }
+.post-author { font-size: 0.85rem; color: #888; }
+.post-divider { height: 1px; background: #e8e4dc; margin: 2rem 0; }
+.post-content { font-size: 1rem; line-height: 1.85; color: #333; }
+.post-content p { margin-bottom: 1.5rem; }
+.post-content ol, .post-content ul { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+.post-content li { margin-bottom: 0.5rem; }
+.post-content blockquote { border-left: 3px solid #1a1a1a; padding-left: 1.25rem; margin: 2rem 0; font-style: italic; color: #555; }
+.post-content strong { font-weight: 600; color: #1a1a1a; }
+.post-content em { font-style: italic; }
+.post-nav { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e8e4dc; }
+.post-nav a { text-decoration: none; color: #1a1a1a; font-size: 0.9rem; }
+footer { background: #1a1a1a; color: #888; text-align: center; padding: 2rem; font-size: 0.8rem; margin-top: 4rem; }
+footer a { color: #aaa; text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/index.html" class="nav-logo">Chris Mugendi</a>
+  <ul class="nav-links">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/blog/index.html">Blog</a></li>
+    <li><a href="https://getfundri.com" target="_blank">Fundri</a></li>
+  </ul>
+</nav>
+<div class="post-container">
+  <a href="/blog/index.html" class="back-link">&larr; All posts</a>
+  <div class="post-meta">
+    <div class="post-date">December 8, 2018</div>
+    <h1>What they don't tell you about starting a startup</h1>
+    <div class="post-author">Chris Mugendi</div>
+  </div>
+  <div class="post-divider"></div>
+  <div class="post-content">
+    <p>I am a firm believer in new ideas, innovations and trying to find new ways to solve existing problems. In business, startups do that very well. In the technology era, starting a new company has become easier. There is a lot of information online where you can learn. From my keen observation, the recipe for starting a startup is likely to consist of the following, among others:</p>
+
+<ol>
+<li>Find a good product-market fit</li>
+<li>Listen to customers and make constant improvements to your product</li>
+<li>Have a unique distribution channel that offers competitive advantage</li>
+<li>Great team</li>
+<li>Superb execution - it's not just about the idea but how you execute it</li>
+</ol>
+
+<p>These are very important and play a very crucial role but I also think there are other factors that are not highlighted because it is hard to quantify them.</p>
+
+<p><strong>Timing:</strong> You can have a great idea, great team, execution etc but I think timing is as important. Some projects fail because they are too early or too late. Specifically, the prevailing market, political, social conditions may not be suitable for the product you are presenting at that particular time.</p>
+
+<p><strong>Leverage:</strong> capital, time, networks. Those with better access to capital are better positioned. If you have time to tinker and experiment for a long period of time, you are likely to learn a lot. If you have networks in form of some potential investors, colleagues, work background etc. These can play an important role in helping you in initial stages. Networks can also be in terms of initial customers that others may not have access to, at least in the beginning.</p>
+
+<p><strong>Emotional capital:</strong> you need a good dose of emotional capital in terms of ability to withstand tribulations. This is not necessarily a good thing as much as it is marketed as such. If you really care about something, it will not be smooth sailing. You might need to handle heartbreaks and ability to withstand heartbreaking moments and long moments of family and friends who don't understand you, and think you are ruining your life. You might also be broke for long periods of time.</p>
+
+<p>Seasons greetings. See you on the other side.</p>
+  </div>
+  <div class="post-nav">
+    <a href="/blog/index.html">&larr; Back to all posts</a>
+  </div>
+</div>
+<footer>
+  <p>Originally published on <a href="https://christhecurator.com" target="_blank">christhecurator.com</a> &mdash; <a href="/index.html">chrismugendi.com</a></p>
+</footer>
+</body>
+</html>
