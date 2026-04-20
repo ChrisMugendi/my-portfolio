@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog - Chris Mugendi</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "DM Sans", sans-serif; background: #f8f7f4; color: #1a1a1a; min-height: 100vh; }
+nav { background: #fff; border-bottom: 1px solid #e8e4dc; padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 64px; position: sticky; top: 0; z-index: 100; }
+.nav-logo { font-family: Syne, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1a1a1a; text-decoration: none; }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a { text-decoration: none; color: #555; font-size: 0.9rem; }
+.nav-links a:hover { color: #1a1a1a; }
+.nav-links a.active { color: #1a1a1a; font-weight: 600; }
+.hero { background: #1a1a1a; color: #fff; padding: 5rem 5% 4rem; }
+.hero-tag { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; margin-bottom: 1rem; }
+.hero h1 { font-family: Syne, sans-serif; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; line-height: 1.2; margin-bottom: 1rem; }
+.hero p { color: #aaa; font-size: 1rem; max-width: 500px; line-height: 1.7; }
+.container { max-width: 860px; margin: 0 auto; padding: 4rem 5%; }
+.section-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #e8e4dc; }
+.post-list { display: flex; flex-direction: column; gap: 0; }
+.post-item { padding: 2rem 0; border-bottom: 1px solid #e8e4dc; display: grid; grid-template-columns: 120px 1fr; gap: 2rem; align-items: start; text-decoration: none; color: inherit; transition: opacity 0.2s; }
+.post-item:hover { opacity: 0.7; }
+.post-date { font-size: 0.8rem; color: #888; padding-top: 0.25rem; line-height: 1.5; }
+.post-title { font-family: Syne, sans-serif; font-size: 1.15rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.5rem; color: #1a1a1a; }
+.post-excerpt { font-size: 0.88rem; color: #666; line-height: 1.6; }
+.post-read { font-size: 0.8rem; color: #888; margin-top: 0.75rem; display: inline-flex; align-items: center; gap: 4px; }
+footer { background: #1a1a1a; color: #888; text-align: center; padding: 2rem; font-size: 0.8rem; margin-top: 4rem; }
+footer a { color: #aaa; text-decoration: none; }
+@media (max-width: 600px) { .post-item { grid-template-columns: 1fr; gap: 0.5rem; } .post-date { padding-top: 0; } }
+</style>
+</head>
+<body>
+<nav>
+  <a href="/index.html" class="nav-logo">Chris Mugendi</a>
+  <ul class="nav-links">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/blog/index.html" class="active">Blog</a></li>
+    <li><a href="https://getfundri.com" target="_blank">Fundri</a></li>
+  </ul>
+</nav>
+<div class="hero">
+  <p class="hero-tag">Writing</p>
+  <h1>Thoughts on tech,<br>startups & Africa</h1>
+  <p>Notes and essays from 2016 onwards. Originally published on christhecurator.com.</p>
+</div>
+<div class="container">
+  <p class="section-label">All posts — newest first</p>
+  <div class="post-list">
+    <a href="/blog/poor-charlies-almanack.html" class="post-item">
+      <div class="post-date">December 5, 2023</div>
+      <div>
+        <div class="post-title">Poor Charlie's Almanack</div>
+        <div class="post-excerpt">Charlie Munger passed away in November aged 99 years old. A compilation of the greatest hits from his book — on investing, life, and thinking.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/how-to-think-about-innovations.html" class="post-item">
+      <div class="post-date">April 12, 2019</div>
+      <div>
+        <div class="post-title">How to think about innovations that are likely to succeed and go mainstream</div>
+        <div class="post-excerpt">A mental model for gauging whether a startup or innovation is likely to succeed and go mainstream. Sometimes innovation is not about complexity, but simplicity.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/african-tech-startup-kit.html" class="post-item">
+      <div class="post-date">March 2, 2019</div>
+      <div>
+        <div class="post-title">African Tech Startup Kit</div>
+        <div class="post-excerpt">A concise kit of observations for building tech startups in Africa — from distribution models and payment preferences to mobile-first thinking.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/does-higher-education-need-radical-surgery.html" class="post-item">
+      <div class="post-date">February 6, 2019</div>
+      <div>
+        <div class="post-title">Does higher education need radical surgery?</div>
+        <div class="post-excerpt">Can you invest in the future potential of a person? Income Share Agreements and new education models are changing how we think about learning.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/what-xerox-teaches-us-about-technology-adoption.html" class="post-item">
+      <div class="post-date">January 13, 2019</div>
+      <div>
+        <div class="post-title">What Xerox past teaches us about new technology adoption</div>
+        <div class="post-excerpt">What does Xerox's 60x stock rise between 1959-67 teach us about fear of new technology and how innovations actually unfold?</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/what-they-dont-tell-you-about-starting-a-startup.html" class="post-item">
+      <div class="post-date">December 8, 2018</div>
+      <div>
+        <div class="post-title">What they don't tell you about starting a startup</div>
+        <div class="post-excerpt">Beyond product-market fit — the underrated factors that determine startup success: timing, leverage, and emotional capital.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/hitchhikers-guide-to-civilizations.html" class="post-item">
+      <div class="post-date">October 30, 2018</div>
+      <div>
+        <div class="post-title">Hitchhiker's guide to civilizations: from Mesopotamia to Atlantis</div>
+        <div class="post-excerpt">Summarizing Yuval Harari's Sapiens and Jared Diamond's Guns, Germs and Steel into how the current world came to be.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+    <a href="/blog/education-odyssey-class-of-notables.html" class="post-item">
+      <div class="post-date">September 14, 2018</div>
+      <div>
+        <div class="post-title">Education Odyssey: A class of notables — makers of a nation</div>
+        <div class="post-excerpt">The Kenyan student airlifts to America in the late 1950s and early 1960s — one of the most defining moments of pre-independent Kenya.</div>
+        <span class="post-read">Read &rarr;</span>
+      </div>
+    </a>
+  </div>
+</div>
+<footer>
+  <p>Originally published on <a href="https://christhecurator.com" target="_blank">christhecurator.com</a> &mdash; <a href="/index.html">chrismugendi.com</a></p>
+</footer>
+</body>
+</html>
