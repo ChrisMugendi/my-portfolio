@@ -13,23 +13,21 @@ nav { background: #fff; border-bottom: 1px solid #e8e4dc; padding: 0 5%; display
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a { text-decoration: none; color: #555; font-size: 0.9rem; }
 .nav-links a:hover { color: #1a1a1a; }
-.nav-links a.active { color: #1a1a1a; font-weight: 600; }
-.hero { background: #1a1a1a; color: #fff; padding: 5rem 5% 4rem; }
-.hero-tag { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; margin-bottom: 1rem; }
-.hero h1 { font-family: Syne, sans-serif; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; line-height: 1.2; margin-bottom: 1rem; }
-.hero p { color: #aaa; font-size: 1rem; max-width: 500px; line-height: 1.7; }
-.container { max-width: 860px; margin: 0 auto; padding: 4rem 5%; }
-.section-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #888; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #e8e4dc; }
-.post-list { display: flex; flex-direction: column; gap: 0; }
-.post-item { padding: 2rem 0; border-bottom: 1px solid #e8e4dc; display: grid; grid-template-columns: 120px 1fr; gap: 2rem; align-items: start; text-decoration: none; color: inherit; transition: opacity 0.2s; }
-.post-item:hover { opacity: 0.7; }
-.post-date { font-size: 0.8rem; color: #888; padding-top: 0.25rem; line-height: 1.5; }
-.post-title { font-family: Syne, sans-serif; font-size: 1.15rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.5rem; color: #1a1a1a; }
+.container { max-width: 680px; margin: 0 auto; padding: 3rem 5%; }
+.blog-header { margin-bottom: 3rem; }
+.blog-header h1 { font-family: Syne, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 700; margin-bottom: 0.5rem; }
+.blog-header p { color: #888; font-size: 0.95rem; line-height: 1.6; }
+.posts-label { font-size: 0.75rem; color: #888; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 1.5rem; }
+.post-list { list-style: none; }
+.post-item { border-bottom: 1px solid #e8e4dc; }
+.post-item a { display: block; padding: 1.5rem 0; text-decoration: none; color: #1a1a1a; }
+.post-item a:hover .post-title { text-decoration: underline; }
+.post-item-date { font-size: 0.78rem; color: #888; margin-bottom: 0.4rem; }
+.post-title { font-family: Syne, sans-serif; font-size: 1.05rem; font-weight: 600; margin-bottom: 0.35rem; line-height: 1.3; }
 .post-excerpt { font-size: 0.88rem; color: #666; line-height: 1.6; }
-.post-read { font-size: 0.8rem; color: #888; margin-top: 0.75rem; display: inline-flex; align-items: center; gap: 4px; }
+.post-read { font-size: 0.82rem; color: #888; margin-top: 0.5rem; }
 footer { background: #1a1a1a; color: #888; text-align: center; padding: 2rem; font-size: 0.8rem; margin-top: 4rem; }
 footer a { color: #aaa; text-decoration: none; }
-@media (max-width: 600px) { .post-item { grid-template-columns: 1fr; gap: 0.5rem; } .post-date { padding-top: 0; } }
 </style>
 </head>
 <body>
@@ -37,83 +35,58 @@ footer a { color: #aaa; text-decoration: none; }
   <a href="/index.html" class="nav-logo">Chris Mugendi</a>
   <ul class="nav-links">
     <li><a href="/index.html">Home</a></li>
-    <li><a href="/blog/index.html" class="active">Blog</a></li>
+    <li><a href="/blog/index.html">Blog</a></li>
     <li><a href="https://getfundri.com" target="_blank">Fundri</a></li>
   </ul>
 </nav>
-<div class="hero">
-  <p class="hero-tag">Writing</p>
-  <h1>Thoughts on tech,<br>startups & Africa</h1>
-  <p>Notes and essays from 2016 onwards. Originally published on christhecurator.com.</p>
-</div>
 <div class="container">
-  <p class="section-label">All posts — newest first</p>
-  <div class="post-list">
-    <a href="/blog/poor-charlies-almanack.html" class="post-item">
-      <div class="post-date">December 5, 2023</div>
-      <div>
-        <div class="post-title">Poor Charlie's Almanack</div>
-        <div class="post-excerpt">Charlie Munger passed away in November aged 99 years old. A compilation of the greatest hits from his book — on investing, life, and thinking.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/how-to-think-about-innovations.html" class="post-item">
-      <div class="post-date">April 12, 2019</div>
-      <div>
-        <div class="post-title">How to think about innovations that are likely to succeed and go mainstream</div>
-        <div class="post-excerpt">A mental model for gauging whether a startup or innovation is likely to succeed and go mainstream. Sometimes innovation is not about complexity, but simplicity.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/african-tech-startup-kit.html" class="post-item">
-      <div class="post-date">March 2, 2019</div>
-      <div>
-        <div class="post-title">African Tech Startup Kit</div>
-        <div class="post-excerpt">A concise kit of observations for building tech startups in Africa — from distribution models and payment preferences to mobile-first thinking.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/does-higher-education-need-radical-surgery.html" class="post-item">
-      <div class="post-date">February 6, 2019</div>
-      <div>
-        <div class="post-title">Does higher education need radical surgery?</div>
-        <div class="post-excerpt">Can you invest in the future potential of a person? Income Share Agreements and new education models are changing how we think about learning.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/what-xerox-teaches-us-about-technology-adoption.html" class="post-item">
-      <div class="post-date">January 13, 2019</div>
-      <div>
-        <div class="post-title">What Xerox past teaches us about new technology adoption</div>
-        <div class="post-excerpt">What does Xerox's 60x stock rise between 1959-67 teach us about fear of new technology and how innovations actually unfold?</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/what-they-dont-tell-you-about-starting-a-startup.html" class="post-item">
-      <div class="post-date">December 8, 2018</div>
-      <div>
-        <div class="post-title">What they don't tell you about starting a startup</div>
-        <div class="post-excerpt">Beyond product-market fit — the underrated factors that determine startup success: timing, leverage, and emotional capital.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/hitchhikers-guide-to-civilizations.html" class="post-item">
-      <div class="post-date">October 30, 2018</div>
-      <div>
-        <div class="post-title">Hitchhiker's guide to civilizations: from Mesopotamia to Atlantis</div>
-        <div class="post-excerpt">Summarizing Yuval Harari's Sapiens and Jared Diamond's Guns, Germs and Steel into how the current world came to be.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
-    <a href="/blog/education-odyssey-class-of-notables.html" class="post-item">
-      <div class="post-date">September 14, 2018</div>
-      <div>
-        <div class="post-title">Education Odyssey: A class of notables — makers of a nation</div>
-        <div class="post-excerpt">The Kenyan student airlifts to America in the late 1950s and early 1960s — one of the most defining moments of pre-independent Kenya.</div>
-        <span class="post-read">Read &rarr;</span>
-      </div>
-    </a>
+  <div class="blog-header">
+    <h1>Thoughts on tech, startups & Africa</h1>
+    <p>Notes and essays from 2016 onwards. Originally published on christhecurator.com.</p>
   </div>
+  <div class="posts-label">All posts — newest first</div>
+  <ul class="post-list">
+    <li class="post-item"><a href="/blog/poor-charlies-almanack.html"><div class="post-item-date">December 5, 2023</div><div class="post-title">Poor Charlie's Almanack</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/how-to-think-about-innovations.html"><div class="post-item-date">April 12, 2019</div><div class="post-title">How to think about innovations that are likely to succeed and go mainstream</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/african-tech-startup-kit.html"><div class="post-item-date">March 2, 2019</div><div class="post-title">African Tech Startup Kit</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/does-higher-education-need-radical-surgery.html"><div class="post-item-date">February 6, 2019</div><div class="post-title">Does higher education need radical surgery?</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/what-xerox-teaches-us-about-technology-adoption.html"><div class="post-item-date">January 13, 2019</div><div class="post-title">What Xerox past teaches us about new technology adoption</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/what-they-dont-tell-you-about-starting-a-startup.html"><div class="post-item-date">December 8, 2018</div><div class="post-title">What they don't tell you about starting a startup</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/hitchhikers-guide-to-civilizations.html"><div class="post-item-date">October 30, 2018</div><div class="post-title">Hitchhiker's guide to civilizations: from Mesopotamia to Atlantis</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/education-odyssey-class-of-notables.html"><div class="post-item-date">September 14, 2018</div><div class="post-title">Education Odyssey: A class of notables — makers of a nation</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/skin-in-the-game.html"><div class="post-item-date">August 10, 2018</div><div class="post-title">Skin in the game</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/africa-can-also-create-solutions-for-the-world.html"><div class="post-item-date">June 1, 2018</div><div class="post-title">Africa can also create solutions for the world</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/documentaries.html"><div class="post-item-date">April 30, 2018</div><div class="post-title">Documentaries</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/blog-classics.html"><div class="post-item-date">March 21, 2018</div><div class="post-title">Blog classics</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/game-theories-fun-with-economics.html"><div class="post-item-date">February 9, 2018</div><div class="post-title">Game theories / Fun with economics</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/the-blockchain-promise.html"><div class="post-item-date">December 19, 2017</div><div class="post-title">The blockchain promise</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/forerunner-entrepreneurs-in-kenya.html"><div class="post-item-date">July 4, 2017</div><div class="post-title">Forerunner entrepreneurs in Kenya</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/startup-school.html"><div class="post-item-date">June 7, 2017</div><div class="post-title">Startup School</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/milestones-ubunifu-sacco.html"><div class="post-item-date">June 7, 2017</div><div class="post-title">Milestones: Ubunifu SACCO</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/of-cultureecosystems-and-learning.html"><div class="post-item-date">May 4, 2017</div><div class="post-title">Of culture, ecosystems and learning</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/making-of-the-modern-world.html"><div class="post-item-date">March 28, 2017</div><div class="post-title">Making of the modern world</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/views-on-origin-and-evolution-of-saccos.html"><div class="post-item-date">March 15, 2017</div><div class="post-title">Views on origin and evolution of SACCOs</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/movies.html"><div class="post-item-date">March 22, 2017</div><div class="post-title">Movies</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/of-plans-and-mega-plans.html"><div class="post-item-date">February 17, 2017</div><div class="post-title">Of plans and mega plans</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/vibrant-kenyan-startup-scene.html"><div class="post-item-date">January 11, 2017</div><div class="post-title">Vibrant Kenyan startup scene</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/self-education.html"><div class="post-item-date">December 4, 2016</div><div class="post-title">Self education</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/forging-your-own-path.html"><div class="post-item-date">November 12, 2016</div><div class="post-title">Forging your own path</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/allure-of-fantasy-tales.html"><div class="post-item-date">October 10, 2016</div><div class="post-title">Allure of fantasy tales</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/africa-in-2025.html"><div class="post-item-date">September 28, 2016</div><div class="post-title">Africa in 2025</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/the-rock-on-motivation-and-work.html"><div class="post-item-date">September 12, 2016</div><div class="post-title">The Rock on motivation and work</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/africa-jobs-in-future.html"><div class="post-item-date">August 31, 2016</div><div class="post-title">Africa: Jobs in future</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/ai-debate-mark-versus-elon.html"><div class="post-item-date">August 20, 2016</div><div class="post-title">AI debate: Mark versus Elon</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/how-to-make-uwezo-fund-more-effective.html"><div class="post-item-date">August 8, 2016</div><div class="post-title">How to make Uwezo Fund more effective</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/exit-aid-enter-startup-africa.html"><div class="post-item-date">July 1, 2016</div><div class="post-title">Exit aid, enter startup Africa</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/curriculum-vitae-creativity.html"><div class="post-item-date">May 31, 2016</div><div class="post-title">Curriculum Vitae Creativity</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/tracking-business-funding-in-kenya.html"><div class="post-item-date">April 19, 2016</div><div class="post-title">Tracking business funding in Kenya</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/book-review-the-lean-startup.html"><div class="post-item-date">April 30, 2016</div><div class="post-title">Book Review: The Lean Startup</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/sports-business.html"><div class="post-item-date">March 18, 2016</div><div class="post-title">Sports Business</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/the-beginnings.html"><div class="post-item-date">March 7, 2016</div><div class="post-title">The Beginnings</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/era-of-the-internet-and-business.html"><div class="post-item-date">February 22, 2016</div><div class="post-title">Era of the internet and business</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/saccos-and-entreprenur-spirit.html"><div class="post-item-date">February 10, 2016</div><div class="post-title">SACCOs and entrepreneur spirit</div><div class="post-read">Read →</div></a></li>
+    <li class="post-item"><a href="/blog/african-entrepreneur-story.html"><div class="post-item-date">January 28, 2016</div><div class="post-title">African entrepreneur story</div><div class="post-read">Read →</div></a></li>
+  </ul>
 </div>
 <footer>
   <p>Originally published on <a href="https://christhecurator.com" target="_blank">christhecurator.com</a> &mdash; <a href="/index.html">chrismugendi.com</a></p>
